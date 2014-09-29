@@ -17,6 +17,7 @@ This class features two methods:
 You can also check agains concrete models to load XIBS or make your interface setups
 
     if ([UIDevice type] == iPhone6Plus) {
+        // Do some funny stuff here
     }
 
 Extra tips
