@@ -8,10 +8,13 @@ Usage
 
 Import the class to your existing project 
 
-#import "UIDevice+Res.h"
-
 This class features two methods:
 
-[UIDevice deviceName] will return the device name in a verbose mode
+[UIDevice deviceName] will return the device name in a verbose mode just in case you need that
 
-NSLog(@"%@", [UIDevice deviceName]);
+    NSLog(@"%@", [UIDevice deviceName]);
+
+You can also check agains concrete models to load XIBS or make your interface setups
+
+    if ([UIDevice type] == iPhone6Plus) {
+    }
